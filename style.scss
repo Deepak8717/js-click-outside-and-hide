@@ -1,0 +1,42 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    margin-bottom: 5px;
+    &:nth-child(3) {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background-color: #262626;
+  border: none;
+  color: #fce38a;
+}
+
+.banner {
+  width: 250px;
+  display: none;
+  position: absolute;
+  top: 300px;
+  background-color: #262626;
+  p {
+    color: #fce38a;
+    text-align: center;
+    padding: 25px 0;
+    margin: auto;
+  }
+}
+
+.open-banner {
+  display: flex;
+}
